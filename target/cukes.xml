@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.012">
+<testcase classname="F01_Registration | guest users could create new accounts" name="create new account with a valid data" time="10.874">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user click on gender...................................................passed
+And user type firstName&LastName............................................passed
+And user choose his birthday................................................passed
+And user enter his email....................................................passed
+And user enter password.....................................................passed
+And user enter confirmPass..................................................passed
+And user click on register button...........................................passed
+Then user assert success register...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
